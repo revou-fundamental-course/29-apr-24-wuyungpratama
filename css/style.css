@@ -1,0 +1,19 @@
+body {
+  font-family: "Poppins";
+}
+
+.container {
+  width: calc(100%-100px);
+  margin: 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+hr {
+  border: 1px solid #111;
+}
