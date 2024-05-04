@@ -14,6 +14,85 @@ body {
   margin: 10px;
 }
 
+.navbar-container a {
+  text-decoration: none;
+}
+
+.navbar-container .logo {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  color: rgba(1, 62, 121, 1);
+}
+
+.navbar-container span {
+  color: #202020;
+}
+
+.navbar-container .Navbar a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #111;
+  display: inline-block;
+  margin: 0 3px;
+  border: 1px solid #111;
+  border-radius: 8px;
+  padding: 3px 10px;
+}
+
+.navbar-container .Navbar a:hover {
+  background-color: rgba(1, 62, 121, 1);
+  color: aliceblue;
+}
+
 hr {
   border: 1px solid #111;
+}
+
+.headline {
+  display: grid;
+  justify-items: center;
+}
+
+.headline h1 {
+  color: rgba(1, 62, 121, 1);
+}
+
+.headline p {
+  font-weight: 700;
+}
+
+.content-head {
+  display: flex;
+  margin: 0 10px;
+  gap: 20px;
+}
+
+.content-head .slideshow {
+  flex: 50%;
+  border: 1px solid #111;
+}
+
+.content-head .contact-form-container {
+  flex: 20%;
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.content-head .contact-form-container h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.content-head .contact-form-container p {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 80px;
+}
+
+.content-head .contact-form-container #contact {
+  display: grid;
+  justify-content: center;
 }
