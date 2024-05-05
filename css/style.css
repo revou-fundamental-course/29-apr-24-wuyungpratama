@@ -166,3 +166,80 @@ p {
   font-weight: 500;
   font-style: italic;
 }
+
+.service h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #102c57;
+  color: #dac0a3;
+}
+
+.service p {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 0;
+}
+
+.service-products {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0;
+}
+
+.service-products img {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-products .vacation-package {
+  display: grid;
+  justify-items: center;
+}
+
+.service-products .vacation-package h4 {
+  margin: 10px 0;
+  color: #102c57;
+}
+
+.service-products .plane-ticket {
+  display: grid;
+  justify-items: center;
+}
+
+.service-products .plane-ticket h4 {
+  margin: 10px 0;
+  color: #102c57;
+}
+
+.service-products .acomodation {
+  display: grid;
+  justify-items: center;
+}
+
+.service-products .acomodation h4 {
+  margin: 10px 0;
+  color: #102c57;
+}
+
+.service-products p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
