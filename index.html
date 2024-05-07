@@ -44,24 +44,37 @@
       </div>
 
       <div class="content-head">
-        <div class="slideshow"></div>
+        <div class="slideshow-container">
+          <div class="mySlide fade">
+            <img src="Assets/image1.jpg" alt="satu" style="width: 100%" />
+            <img src="Assets/image2.jpg" alt="dua" style="width: 100%" />
+            <img src="Assets/image3.jpg" alt="tiga" style="width: 100%" />
+          </div>
+        </div>
+
         <div class="contact-form-container">
           <h3>Contact Us</h3>
           <p>Our sales will contact you within 1 x 24 hours.</p>
-          <form action="" id="contact">
+          <form
+            action=""
+            id="contact"
+            name="contact"
+            onsubmit="return validateForm()"
+            method="post"
+          >
             <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Name" />
+            <input type="text" id="name" name="name" placeholder="Name" />
 
             <label for="email">Email:</label>
-            <input type="text" id="email" placeholder="Email" />
+            <input type="text" id="email" name="email" placeholder="Email" />
 
             <label for="choice">What Are You Interest In?</label>
-            <select name="selection" id="choice">
-              <option value="" selected>-- Choose One --</option>
-              <option value="nature">Nature</option>
-              <option value="museum">Museum</option>
-              <option value="culture">Culture</option>
-            </select>
+            <input
+              type="text"
+              id="selection"
+              name="selection"
+              placeholder="Choices"
+            />
 
             <button type="submit" id="submit">KIRIM</button>
           </form>
@@ -125,9 +138,11 @@
         <div class="collumn">
           <table>
             <tr>
-              <th colspan="3">DALAM NEGERI</th>
+              <th colspan="3" style="background-color: #dac0a3">
+                DALAM NEGERI
+              </th>
             </tr>
-            <tr>
+            <tr style="background-color: #dac0a3">
               <th>TUJUAN</th>
               <th>DURASI</th>
               <th>AKOMODASI</th>
@@ -153,9 +168,9 @@
         <div class="collumn">
           <table>
             <tr>
-              <th colspan="3">LUAR NEGERI</th>
+              <th colspan="3" style="background-color: #dac0a3">LUAR NEGERI</th>
             </tr>
-            <tr>
+            <tr style="background-color: #dac0a3">
               <th>TUJUAN</th>
               <th>DURASI</th>
               <th>AKOMODASI</th>
@@ -179,7 +194,25 @@
         </div>
       </div>
 
+      <div class="end">
+        <h2>YOENK TRAVELS</h2>
+        <p>
+          "Yoenk Travels tidak hanya tentang perjalanan, tetapi tentang
+          menciptakan kenangan tak terlupakan di setiap sudut dunia.
+          Bergabunglah dengan kami dalam menjelajahi keindahan alam dan
+          keajaiban budaya, karena setiap perjalanan adalah cerita yang layak
+          diceritakan. Temukan dunia Anda dengan Yoenk Travels!"
+        </p>
+      </div>
       <!-- Article end -->
+
+      <!-- Footer Start -->
+      <footer>
+        <p style="font-size: 14px">
+          Create by <span>YoenkTravels</span> &copy;2024
+        </p>
+      </footer>
+      <!-- Footer End -->
     </div>
   </body>
 </html>
