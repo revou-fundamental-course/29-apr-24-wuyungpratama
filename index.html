@@ -8,9 +8,6 @@
     <!-- my style -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- my script -->
-    <script src="js/script.js"></script>
-
     <!-- my font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,9 +44,16 @@
         <div class="slideshow-container">
           <div class="mySlide fade">
             <img src="Assets/image1.jpg" alt="satu" style="width: 100%" />
+          </div>
+          <div class="mySlide fade">
             <img src="Assets/image2.jpg" alt="dua" style="width: 100%" />
+          </div>
+          <div class="mySlide fade">
             <img src="Assets/image3.jpg" alt="tiga" style="width: 100%" />
           </div>
+
+          <button class="prev" onclick="plusSlide(-1)">Previous</button>
+          <button class="next" onclick="plusSlide(1)">Next</button>
         </div>
 
         <div class="contact-form-container">
@@ -63,12 +67,12 @@
             method="post"
           >
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Name" />
+            <input type="text" name="name" id="name" placeholder="Name" />
 
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" placeholder="Email" />
 
-            <label for="choice">What Are You Interest In?</label>
+            <label for="selection">What Are You Interest In?</label>
             <input
               type="text"
               id="selection"
@@ -215,4 +219,7 @@
       <!-- Footer End -->
     </div>
   </body>
+
+  <!-- my script -->
+  <script src="js/script.js"></script>
 </html>
